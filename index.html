@@ -1,59 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Typography css library</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <h1>Heading 1 - css typoraphy library</h1>
-      <p><b>Autor:</b> Julie Sanetrníková</p>
-    </header>
 
-    <main>
-      <article>
-        <header>
-          <h2>Heading 2</h2>
-          <p class="outset">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
-            veniam iste doloribus placeat, laudantium officiis animi totam
-            asperiores eius, ad voluptatem, magni praesentium cupiditate
-            laboriosam impedit accusantium odit doloremque voluptatum?
-          </p>
-        </header>
-        <div class="content">
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Accusantium, corrupti. Dolore expedita ratione soluta consequuntur
-            rerum modi quidem iste aliquid dolorum rem a ullam, labore omnis
-            accusantium autem eius incidunt? Repellendus culpa consectetur ipsum
-            labore natus ipsam itaque nisi unde quaerat expedita necessitatibus
-            facilis veritatis molestiae hic minima, magnam accusamus totam
-            dignissimos exercitationem dolorum, maxime ducimus voluptas debitis.
-            Impedit, unde. Et numquam laudantium qui cum explicabo tempora
-            tempore dolor similique earum ex repellat voluptate nisi, dicta
-            deleniti accusamus eum necessitatibus dolore minus reiciendis. Quo
-            dolorum excepturi illum qui commodi dignissimos? Recusandae animi
-            explicabo libero iure eius ad temporibus cumque sapiente. Odit, cum.
-            Nam sapiente nisi suscipit vitae adipisci tempore tempora sunt
-            mollitia, vero nesciunt ullam veniam delectus beatae laboriosam
-            sint! Consectetur recusandae sunt asperiores ullam incidunt cumque
-            impedit libero fuga aspernatur! Aspernatur commodi minus totam, nisi
-            quia quod praesentium iusto eius maiores tempore perferendis ut
-            alias adipisci! Ullam, libero! Illum!
-          </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Typography css library</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="normalize.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap"
+    rel="stylesheet" />
+
+  <script src="https://unpkg.com/smartphoto@1.1.0/js/smartphoto.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/smartphoto@1.1.0/css/smartphoto.min.css" />
+  <link rel="stylesheet" href="./infopoint.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Heading 1 - CSS typoraphy library</h1>
+    <p class="author"><b>Author: </b>Julie Sanetrníková</p>
+    <p class="date">
+      <b>Date: </b><time datetime="2020-09-18">18.9.2020</time>
+    </p>
+  </header>
+
+  <main>
+    <article>
+      <header>
+        <h2>Heading 2</h2>
+        <p class="perex">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
+          veniam iste doloribus placeat, laudantium officiis animi totam
+          asperiores eius, ad voluptatem, magni praesentium cupiditate
+          laboriosam impedit accusantium odit doloremque voluptatum?
+        </p>
+      </header>
+      <div class="content">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Accusantium, corrupti. Dolore expedita ratione soluta consequuntur
+          rerum modi <b>quidem iste aliquid</b>  dolorum rem a ullam, labore omnis
+          accusantium autem eius incidunt? Repellendus culpa consectetur ipsum
+          labore natus ipsam itaque nisi unde quaerat expedita necessitatibus
+          facilis veritatis molestiae hic minima, magnam accusamus totam
+          dignissimos exercitationem dolorum, maxime ducimus voluptas debitis.
+          <a href="#">Show me what you got...</a>
+        </p>
+        <div class="thumbnails">
+          <figure>
+            <a href="./img/pexels-stephan-seeber-1428787.jpg">
+              <img src="./img/pexels-stephan-seeber-1428787.jpg" alt="Image caption" />
+              <div>
+                <p>Image caption</p>
+              </div>
+            </a>
+          </figure>
+          <figure>
+            <a href="./img/pexels-rok-romih-3848197.jpg">
+              <img src="./img/pexels-rok-romih-3848197.jpg" alt="Image caption" />
+              <div>
+                <p>Image caption</p>
+              </div>
+            </a>
+          </figure>
         </div>
-      </article>
-    </main>
-  </body>
+      </div>
+    </article>
+    <article>
+      <header>
+        <h2>Heading 2</h2>
+        <p class="perex">
+          Aspernatur commodi minus totam, nisi quia quod praesentium iusto
+          eius maiores tempore perferendis ut alias adipisci! Ullam, libero!
+          Illum!
+        </p>
+      </header>
+      <div class="content">
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Accusantium, corrupti. Dolore expedita ratione soluta consequuntur
+          rerum modi quidem iste aliquid dolorum rem a ullam, labore omnis
+          accusantium autem eius incidunt?
+        </p>
+        <h3>Heading 3</h3>
+        <ul>
+          <li>textik</li>
+          <li>textik</li>
+          <ul>
+            <li>textik...</li>
+            <li>textik...</li>
+            <li>textik...</li>
+          </ul>
+          <li>textik</li>
+          <li>textik</li>
+          <li>textik</li>
+        </ul>
+        <ol>
+          <li>textik</li>
+          <li>textik</li>
+          <li>textik</li>
+          <ol>
+            <li>textik...</li>
+            <li>textik...</li>
+            <li>textik...</li>
+          </ol>
+          <li>textik</li>
+          <li>textik</li>
+        </ol>
+
+        <p>
+          Repellendus culpa <q>consectetur</q> ipsum labore natus ipsam itaque
+          nisi unde quaerat expedita necessitatibus facilis veritatis
+          molestiae hic minima, magnam accusamus totam dignissimos
+          exercitationem dolorum, maxime ducimus voluptas debitis. Impedit,
+          unde.
+        </p>
+        <blockquote cite="#">
+          Et numquam laudantium qui cum explicabo <br />
+          tempora tempore dolor similique earum ex repellat voluptate nisi,
+          <br />
+          dicta deleniti accusamus eum necessitatibus dolore minus reiciendis.
+          <br />
+          <span>(Link:
+            <a href="https://web.pslib.cz/">https://web.pslib.cz/</a>)</span>
+        </blockquote>
+
+        <div class="thumbnails">
+          <figure>
+            <a href="./img/pexels-skitterphoto-585558.jpg">
+              <img src="./img/pexels-skitterphoto-585558.jpg" alt="Image caption" />
+              <div>
+                <p>Image caption</p>
+              </div>
+            </a>
+          </figure>
+        </div>
+      </div>
+    </article>
+  </main>
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#">Footer link 1</a></li>
+        <li><a href="#">Footer link 2</a></li>
+        <li><a href="#">Footer link 3</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script>
+    new SmartPhoto(".thumbnails figure a");
+  </script>
+</body>
+
 </html>
