@@ -49,7 +49,6 @@ Online blog with images
   
  ### Header of article 
  ```
- 
     <main>
     <article>
       <header>
@@ -65,6 +64,6 @@ Online blog with images
    <main>
    ```
    
-  ### 
+### 
 
 ### Second
