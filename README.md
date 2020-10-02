@@ -5,7 +5,9 @@
 Link to **[demo](http://www.github.io)** site for preview.
 
 ## Dependecies
+```
 <link rel="stylesheet" href="normalize.css" />
+```
 
 ## Implementation
 ```
