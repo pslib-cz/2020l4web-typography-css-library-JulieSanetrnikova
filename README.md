@@ -27,12 +27,32 @@ Link to **[demo](http://www.github.io)** site for preview.
 </head>
 
 ## Usage
-Online blog
+Online blog with images
 * ul/ol
 * blockquote, q
 * b, i, a
 * h1, h2, h3
 
 ## Components
-### 
+### Main header of page
+ ```<header>
+    <h1>Heading 1 - CSS typography library</h1>
+    <p class="author"><b>Author: </b>Julie Sanetrníková</p>
+    <p class="date">
+      <b>Date: </b><time datetime="2020-09-18">18.9.2020</time>
+    </p>
+  </header>```
+  
+  ### Header of article
+      ```<header>
+        <h2>Heading 2</h2>
+        <p class="perex">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
+          veniam iste doloribus placeat, laudantium officiis animi totam
+          asperiores eius, ad voluptatem, magni praesentium cupiditate
+          laboriosam impedit accusantium odit doloremque voluptatum?
+        </p>
+      </header>```
+  
+
 ### Second
