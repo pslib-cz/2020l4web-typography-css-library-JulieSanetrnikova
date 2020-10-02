@@ -8,6 +8,7 @@ Link to **[demo](http://www.github.io)** site for preview.
 <link rel="stylesheet" href="normalize.css" />
 
 ## Implementation
+```
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,6 +26,7 @@ Link to **[demo](http://www.github.io)** site for preview.
   <script src="https://unpkg.com/smartphoto@1.1.0/js/smartphoto.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/smartphoto@1.1.0/css/smartphoto.min.css" />
 </head>
+```
 
 ## Usage
 Online blog with images
@@ -47,6 +49,8 @@ Online blog with images
   
  ### Header of article
       ```
+   <main>
+    <article>
       <header>
         <h2>Heading 2</h2>
         <p class="perex">
@@ -56,7 +60,9 @@ Online blog with images
           laboriosam impedit accusantium odit doloremque voluptatum?
         </p>
       </header>
+    <article>
+   <main>
       ```
-  
+  ### 
 
 ### Second
