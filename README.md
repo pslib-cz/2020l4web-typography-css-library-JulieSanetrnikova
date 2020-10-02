@@ -66,7 +66,6 @@ Online blog with images
    
 ### Paragraph in article
 ```
-
     <main>
       <article>
         <div>
@@ -75,9 +74,40 @@ Online blog with images
         </div>
        </article>
       </main>
+```
       
-      ```
-      
-      
+### Lists
+```
+        <ul>
+          <li>textik</li>
+          <ul>
+            <li>textik...</li>
+             <ul>
+               <li>textik...</li>
+               <li>textik...</li>
+             </ul>
+           </ul>
+         </ul>
+         <ol>
+           <li>textik</li>
+           <ol>
+             <li>textik...</li>
+           </ol>
+         </ol>
+```
 
-### Second
+### Image in article
+```
+        <div class="thumbnails">
+          <figure>
+            <a href="./.../image.jpg">
+              <img src="./.../image.jpg" alt="Image caption" />
+              <div>
+                <p>Image caption</p>
+              </div>
+            </a>
+          </figure>
+        </div>
+```
+
+
