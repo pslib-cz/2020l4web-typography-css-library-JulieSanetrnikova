@@ -62,8 +62,8 @@ Online blog with images
           laboriosam impedit accusantium odit doloremque voluptatum?
         </p>
       </header>
-    <article>
-   <main>
+    </article>
+   </main>
    ```
    
 ### Paragraph in article
