@@ -110,4 +110,16 @@ Online blog with images
         </div>
 ```
 
+### Footer
+```
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="#">Footer link 1</a></li>
+        <li><a href="#">Footer link 2</a></li>
+        <li><a href="#">Footer link 3</a></li>
+      </ul>
+    </nav>
+  </footer>
+```
 
