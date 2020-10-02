@@ -49,7 +49,7 @@ Online blog with images
   
  ### Header of article 
  ```
-    <main>
+   <main>
     <article>
       <header>
         <h2>Heading 2</h2>
@@ -64,6 +64,18 @@ Online blog with images
    <main>
    ```
    
-### 
+### Paragraph in article
+```
+
+    <main>
+      <article>
+        <div>
+          <p>Aspernatur commodi minus totam, nisi quia quod praesentium iusto
+          eius maiores tempore perferendis ut alias adipisci! Ullam, libero! Illum!</p>
+        </div>
+       </arcticle>
+      </main>
+      ```
+      
 
 ### Second
