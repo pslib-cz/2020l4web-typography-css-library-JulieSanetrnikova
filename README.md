@@ -46,7 +46,7 @@ Online blog with images
     <p class="date">
       <b>Date: </b><time datetime="2020-09-18">18.9.2020</time>
     </p>
-  </header>
+ </header>
   ```
   
  ### Header of article 
@@ -74,8 +74,8 @@ Online blog with images
           <p>Aspernatur commodi minus totam, nisi quia quod praesentium iusto
           eius maiores tempore perferendis ut alias adipisci! Ullam, libero! Illum!</p>
         </div>
-       </article>
-      </main>
+      </article>
+     </main>
 ```
       
 ### Lists
