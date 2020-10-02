@@ -73,9 +73,8 @@ Online blog with images
           <p>Aspernatur commodi minus totam, nisi quia quod praesentium iusto
           eius maiores tempore perferendis ut alias adipisci! Ullam, libero! Illum!</p>
         </div>
-       </arcticle>
+       </article>
       </main>
-      
       ```
       
       
