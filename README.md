@@ -2,7 +2,7 @@
 **Author:** *Julie Sanetrníková*
 
 ## Demo site
-Link to **[demo](http://www.github.io)** site for preview.
+Link to **[demo](https://juliesanetrnikova.github.io/typography/docs/)** site for preview.
 
 ## Dependecies
 ```
