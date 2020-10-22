@@ -5,15 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Typography css library</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="normalize.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;300;400;500;600;700;800;900&display=swap"
-    rel="stylesheet" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap"
-    rel="stylesheet" />
+
+  <link rel="stylesheet" href="../typography.css" />
+  <link rel="stylesheet" href="./layout.css" />
 
   <script src="https://unpkg.com/smartphoto@1.1.0/js/smartphoto.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/smartphoto@1.1.0/css/smartphoto.min.css" />
@@ -29,7 +23,7 @@
   </header>
 
   <main>
-    <article>
+    <article class="article">
       <header>
         <h2>Heading 2</h2>
         <p class="perex">
@@ -43,11 +37,12 @@
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit.
           Accusantium, corrupti. Dolore expedita ratione soluta consequuntur
-          rerum modi <b>quidem iste aliquid</b> dolorum rem a ullam, labore omnis
-          accusantium autem eius incidunt? Repellendus culpa consectetur ipsum
-          labore natus ipsam itaque nisi unde quaerat expedita necessitatibus
-          facilis veritatis molestiae hic minima, magnam accusamus totam
-          dignissimos exercitationem dolorum, maxime ducimus voluptas debitis.
+          rerum modi <b>quidem iste aliquid</b> dolorum rem a ullam, labore
+          omnis accusantium autem eius incidunt? Repellendus culpa consectetur
+          ipsum labore natus ipsam itaque nisi unde quaerat expedita
+          necessitatibus facilis veritatis molestiae hic minima, magnam
+          accusamus totam dignissimos exercitationem dolorum, maxime ducimus
+          voluptas debitis.
           <a href="#">Show me what you got...</a>
         </p>
         <div class="thumbnails">
@@ -70,7 +65,7 @@
         </div>
       </div>
     </article>
-    <article>
+    <article class="article">
       <header>
         <h2>Heading 2</h2>
         <p class="perex">
@@ -82,7 +77,8 @@
       <div>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          Accusantium, corrupti.</p>
+          Accusantium, corrupti.
+        </p>
         <pre>
             Text in a pre element
             is displayed in a fixed-width
@@ -90,25 +86,32 @@
             both      spaces and
             line breaks
             </pre>
-        <p>Dolore expedita ratione soluta consequuntur
-          rerum modi quidem iste aliquid dolorum rem a ullam, labore omnis
-          accusantium autem eius incidunt?</p>
+        <p>
+          Dolore expedita ratione soluta consequuntur rerum modi quidem iste
+          aliquid dolorum rem a ullam, labore omnis accusantium autem eius
+          incidunt?
+        </p>
 
         <h3>Heading 3</h3>
         <ul>
           <li>textik</li>
-          <li>textik</li>
-          <ul>
-            <li>textik...</li>
+          <li>
+            textik
             <ul>
-              <li>textik...</li>
-              <li>textik...</li>
+              <li>
+                textik...
+                <ul>
+                  <li>textik</li>
+                  <li>textik</li>
+                  <li>textik</li>
+                </ul>
+              </li>
             </ul>
-          </ul>
-          <li>textik</li>
-          <li>textik</li>
-          <li>textik</li>
+          </li>
+          <li>textik...</li>
+          <li>textik...</li>
         </ul>
+
         <ol>
           <li>textik</li>
           <li>textik</li>
@@ -124,8 +127,8 @@
 
         <p>
           Repellendus culpa <q>consectetur</q> ipsum labore natus ipsam itaque
-          nisi unde quaerat expedita necessitatibus <i>facilis veritatis</i>
-          molestiae hic minima, magnam accusamus totam dignissimos
+          nisi unde quaerat expedita necessitatibus <em>facilis veritatis</em>
+          molestiae <strong>hic minima</strong>, magnam accusamus totam dignissimos
           exercitationem dolorum, maxime ducimus voluptas debitis. Impedit,
           unde.
         </p>
@@ -152,7 +155,7 @@
       </div>
     </article>
   </main>
-  <footer>
+  <footer class="footer">
     <nav>
       <ul>
         <li><a href="#">Footer link 1</a></li>
