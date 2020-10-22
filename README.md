@@ -86,16 +86,4 @@ Online blog with images
         </div>
 ```
 
-### Footer
-```
-  <footer class="footer">
-    <nav>
-      <ul>
-        <li><a href="#">Footer link 1</a></li>
-        <li><a href="#">Footer link 2</a></li>
-        <li><a href="#">Footer link 3</a></li>
-      </ul>
-    </nav>
-  </footer>
-```
 
